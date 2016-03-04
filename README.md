@@ -1,11 +1,11 @@
 # cookiecutter-mediawiki-extension
 A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki extensions.
 
-## Features (current)
+## Features
 * Comes with all features of the [upstream BoilerPlate](https://www.mediawiki.org/wiki/Extension:BoilerPlate) extension.
+* Makefile support (`make help`, `make install`, `make update`, `make test`)
 
 ## Features (future)
-* Makefile support
 * License support
 * Tests using PHPUnit
 
@@ -13,10 +13,9 @@ A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki
 *These features can be enabled during initial project setup.*
 
 * Different extension types
-    * [Parser Functions](https://www.mediawiki.org/wiki/Manual:Parser_functions)
-    * [Tag Extensions](https://www.mediawiki.org/wiki/Manual:Tag_extensions)
-    * [Special Pages](https://www.mediawiki.org/wiki/Manual:Special_pages)
-
+    * [Parser Functions](https://www.mediawiki.org/wiki/Manual:Parser_functions) (parserhook)
+    * [Special Pages](https://www.mediawiki.org/wiki/Manual:Special_pages) (specialpage)
+    * [Tag Extensions](https://www.mediawiki.org/wiki/Manual:Tag_extensions) (not sure?! please help)
 * Integration with [Gerrit](https://www.mediawiki.org/wiki/Gerrit) (using git-review)
 
 ## Constraints

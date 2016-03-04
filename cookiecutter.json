@@ -1,14 +1,15 @@
 {
-  "repo_name" : "ExampleExtension",
-  "description" : "A short description of the extension.",
-  "jscss_prefix" : "exampleExtension",
-  "composer_vendor_name" : "vendorname",
-  "composer_package_name" : "example-extension",
-  "version" : "0.1.0",
-  "author_name" : "Your Name",
-  "url" : "https://github.com/...",
-  "i18n_prefix" : "{{ cookiecutter.repo_name|lower }}",
-  "license" : "GPL v2",
-  "extension_type" : ["api", "antispam", "datavalues", "media", "parserhook", "semantic", "skin", "specialpage", "variable", "other"],
-  "integration_add_example_special_page": "y"
+	"repo_name" : "ExampleExtension",
+	"description" : "A short description of the extension.",
+	"jscss_prefix" : "exampleExtension",
+	"composer_vendor_name" : "vendorname",
+	"composer_package_name" : "example-extension",
+	"version" : "0.1.0",
+	"author_name" : "Your Name",
+	"url" : "https://github.com/...",
+	"i18n_prefix" : "{{ cookiecutter.repo_name|lower }}",
+	"license" : "GPL v2",
+	"extension_type" : ["api", "antispam", "datavalues", "media", "parserhook", "semantic", "skin", "specialpage", "variable", "other"],
+	"integration_add_example_special_page": "y",
+	"integration_add_gerrit": "y"
 }

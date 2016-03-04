@@ -1,4 +1,4 @@
-{% if cookiecutter.integration_add_example_special_page %}
+{% if cookiecutter.integration_add_example_special_page == 'y' %}
 <?php
 /**
  * HelloWorld SpecialPage for {{ cookiecutter.repo_name }} extension
