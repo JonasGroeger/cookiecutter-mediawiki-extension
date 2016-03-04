@@ -45,7 +45,7 @@
 		"localBasePath": "",
 		"remoteExtPath": "{{ cookiecutter.repo_name }}"
 	},
-	"SpecialPages": {{% if cookiecutter.integration_add_example_special_page == 'y' %}
+	"SpecialPages": {{ { }}{% if cookiecutter.integration_add_example_special_page == 'y' %}
 "HelloWorld": "SpecialHelloWorld"{% endif %}
 	},
 	"manifest_version": 1
