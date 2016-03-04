@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Esta ye una estensión d'exemplu",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Bienveníu al ficheru de llocalización de la estensión {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "¡Bones, mundu!",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Bienllegaos a la páxina especial «Bones, mundu» de la estensión {{ cookiecutter.repo_name }}.",
+	"helloworld": "HolaMundu"{% endif %}
+}

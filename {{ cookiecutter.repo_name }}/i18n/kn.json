@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ananth subray"
+		]
+	}{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "ಹಲೋ ವರ್ಲ್ಡ್!",
+	"helloworld": "ಹಲೋ ವರ್ಲ್ಡ್"{% endif %}
+}

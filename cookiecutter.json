@@ -1,0 +1,13 @@
+{
+  "repo_name" : "ExtensionName",
+  "description" : "A short description of the extension.",
+  "jscss_prefix" : "extensionName",
+  "composer_vendor_name" : "The vendor name for Composer",
+  "composer_package_name" : "{{ cookiecutter.repo_name|lower }}",
+  "version" : "0.1.0",
+  "author_name" : "Your Name",
+  "url" : "The url to the project.",
+  "i18n_prefix" : "{{ cookiecutter.repo_name|lower }}",
+  "license" : "GPL v2",
+  "extension_type" : ["api", "antispam", "datavalues", "media", "parserhook", "semantic", "skin", "specialpage", "variable", "other"]
+}

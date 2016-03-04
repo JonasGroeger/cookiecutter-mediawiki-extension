@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arystanbek"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Бұл мысал кеңейтілім",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "{{ cookiecutter.repo_name }} кеңейтілімінің жерсіндіру файлына қош келдіңіз."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "Сәлем, әлем!",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "{{ cookiecutter.repo_name }} кеңейтілімінің «Hello world» арнайы бетіне қош келдіңіз.",
+	"helloworld": "Сәлем, әлем!"{% endif %}
+}

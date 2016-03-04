@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hydra",
+			"Hudafu",
+			"Liuxinyu970226"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "这是一个示例扩展程序",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "欢迎来到{{ cookiecutter.repo_name }}扩展程序的本地化文件。"{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "您好世界！",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "欢迎来到{{ cookiecutter.repo_name }}扩展的“您好世界”特殊页面。",
+	"helloworld": "您好世界"{% endif %}
+}

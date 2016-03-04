@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nedergard",
+			"Nike",
+			"VezonThunder"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Tämä on esimerkkilaajennus",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Tervetuloa {{ cookiecutter.i18n_prefix }}-laajennuksen lokalisointitiedostoon."
+}

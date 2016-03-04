@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"StefanusRA"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Kiye kuwe anu conto ekstensi",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Sugeng teka ming berkas lokalisasi ekstensi {{ cookiecutter.repo_name }}."
+}

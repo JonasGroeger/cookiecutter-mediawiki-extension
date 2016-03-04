@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hylle"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Dette er et eksempel på en udvidelse",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Velkommen til lokaliseringsdelen af {{ cookiecutter.repo_name }} udvidelsen."
+}

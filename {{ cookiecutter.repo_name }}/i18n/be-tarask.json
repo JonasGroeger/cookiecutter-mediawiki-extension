@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizardist",
+			"Red Winged Duck"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Гэта прыклад пашырэньня",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Вітаем у лякалізацыйным файле пашырэньня {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "Hello world!",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Вітаем на спэцыяльнай старонцы «Hello world» пашырэньня {{ cookiecutter.repo_name }}",
+	"helloworld": "HelloWorld"{% endif %}
+}

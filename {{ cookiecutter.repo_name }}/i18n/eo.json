@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yekrats"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Jen ekzempla programero"
+}

@@ -1,0 +1,3 @@
+.mw-{{ cookiecutter.jscss_prefix }}-foo {
+	float: left;
+}

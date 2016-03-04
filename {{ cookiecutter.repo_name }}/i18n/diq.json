@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Erdemaslancan"
+		]
+	}{% if cookiecutter.integration_add_example_special_page %},
+	"helloworld": "MerhebaDınya"{% endif %}
+}

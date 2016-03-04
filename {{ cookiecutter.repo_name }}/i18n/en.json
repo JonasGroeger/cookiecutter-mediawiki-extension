@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "{{ cookiecutter.description }}",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Welcome to the localization file of the {{ cookiecutter.repo_name }} extension."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "Hello world!",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Welcome to the \"Hello world\" special page of the {{ cookiecutter.repo_name }} extension.",
+	"helloworld": "Hello world"{% endif %}
+}

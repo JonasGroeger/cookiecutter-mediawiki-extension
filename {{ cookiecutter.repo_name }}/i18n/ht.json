@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bfpage"
+		]
+	}{% if cookiecutter.integration_add_example_special_page %},
+	"helloworld": "Bonjou mond"{% endif %}
+}

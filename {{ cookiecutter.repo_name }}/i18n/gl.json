@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño",
+			"Banjo",
+			"Elisardojm"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Esta é unha extensión de exemplo",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Dámoslle a benvida ao ficheiro de localización da extensión {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "Ola mundo!",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Benvido á páxina especial \"Ola mundo\" da extensión {{ cookiecutter.repo_name }}.",
+	"helloworld": "Ola mundo"{% endif %}
+}

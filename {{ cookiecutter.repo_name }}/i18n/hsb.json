@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "To je přikładowe rozšěrjenje",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Witaj k localizaciskej dataji rozšěrjenja {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"helloworld": "HelloWorld"{% endif %}
+}

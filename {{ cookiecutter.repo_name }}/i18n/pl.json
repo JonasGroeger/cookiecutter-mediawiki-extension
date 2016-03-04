@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"BeginaFelicysym",
+			"Chrumps",
+			"Woytecr"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "To jest rozszerzenie przykładowe",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Witamy w lokalizacji pliku rozszerzenia szablonowego {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "Witaj świecie!",
+	"helloworld": "WitajŚwiecie"{% endif %}
+}

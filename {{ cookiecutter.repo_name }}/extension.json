@@ -1,0 +1,52 @@
+{
+	"name": "{{ cookiecutter.repo_name }}",
+	"version": "{{ cookiecutter.version }}",
+	"author": [
+		"{{ cookiecutter.author_name }}"
+	],
+	"url": "{{ cookiecutter.url }}",
+	"descriptionmsg": "{{ cookiecutter.i18n_prefix }}-desc",
+	"license-name": "{{ cookiecutter.license }}",
+	"type": "{{ cookiecutter.extension_type }}",
+	"AutoloadClasses": {
+		"{{ cookiecutter.repo_name }}Hooks": "{{ cookiecutter.repo_name }}.hooks.php"{% if cookiecutter.integration_add_example_special_page %},
+		"SpecialHelloWorld": "specials/SpecialHelloWorld.php"{% endif %}
+	},
+	"config": {
+		"{{ cookiecutter.repo_name }}EnableFoo": true
+	},
+	"ExtensionMessagesFiles": {
+		"{{ cookiecutter.repo_name }}Alias": "{{ cookiecutter.repo_name }}.i18n.alias.php"
+	},
+	"Hooks": {
+		"NameOfHook": [
+			"{{ cookiecutter.repo_name }}Hooks::onNameOfHook"
+		]
+	},
+	"MessagesDirs": {
+		"{{ cookiecutter.repo_name }}": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.{{ cookiecutter.jscss_prefix }}.foo": {
+			"scripts": [
+				"modules/ext.{{ cookiecutter.jscss_prefix }}.js",
+				"modules/ext.{{ cookiecutter.jscss_prefix }}.foo.js"
+			],
+			"styles": [
+				"modules/ext.{{ cookiecutter.jscss_prefix }}.foo.css"
+			],
+			"messages": [],
+			"dependencies": []
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "{{ cookiecutter.repo_name }}"
+	},
+	"SpecialPages": {{% if cookiecutter.integration_add_example_special_page %}
+"HelloWorld": "SpecialHelloWorld"{% endif %}
+	},
+	"manifest_version": 1
+}

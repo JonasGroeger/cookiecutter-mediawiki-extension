@@ -1,0 +1,8 @@
+{% if cookiecutter.integration_add_gerrit %}
+[gerrit]
+host=gerrit.wikimedia.org
+port=29418
+project=mediawiki/extensions/{{ cookiecutter.repo_name }}.git
+defaultbranch=master
+defaultrebase=0
+{% endif %}

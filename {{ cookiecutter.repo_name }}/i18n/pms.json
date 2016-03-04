@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Cost a l'é n'esempi d'estension",
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Bin-ëvnù ant l'archivi ëd localisassion ëd l'estension {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"helloworld": "CereaMond"{% endif %}
+}

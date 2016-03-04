@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChrisPtDe"
+		]
+	},
+	"{{ cookiecutter.i18n_prefix }}-desc": "O est un ègzemplo d’èxtension"
+}
