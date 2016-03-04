@@ -1,9 +1,9 @@
 {
-  "repo_name" : "ExtensionName",
+  "repo_name" : "ExampleExtension",
   "description" : "A short description of the extension.",
-  "jscss_prefix" : "extensionName",
+  "jscss_prefix" : "exampleExtension",
   "composer_vendor_name" : "vendorname",
-  "composer_package_name" : "{{ cookiecutter.repo_name|lower }}",
+  "composer_package_name" : "example-extension",
   "version" : "0.1.0",
   "author_name" : "Your Name",
   "url" : "https://github.com/...",

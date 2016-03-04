@@ -38,29 +38,57 @@ Now run it against this repo::
 
 You'll be prompted for some questions, answer them, then it will create a custom MediaWiki extension for you.
 
-**Warning**: No warnings right now.
+**Note**: To conform with all naming conventions (PHP, JS/CSS, Composer) you should watch closely
+when filling out the project template parameters and see how its done there.
 
 It prompts you for questions. Answer them::
 
-    TODO
+    $ cookiecutter https://github.com/JonasGroeger/cookiecutter-mediawiki-extension.git
+    Cloning into 'cookiecutter-mediawiki-extension'...
+    remote: Counting objects: 151, done.
+    remote: Compressing objects: 100% (102/102), done.
+    remote: Total 151 (delta 57), reused 140 (delta 46), pack-reused 0
+    Receiving objects: 100% (151/151), 28.13 KiB | 0 bytes/s, done.
+    Resolving deltas: 100% (57/57), done.
+    Checking connectivity... done.
+    repo_name [ExtensionName]: SomeExtension
+    description [A short description of the extension.]: This will be an extension that adds a parser hook.
+    jscss_prefix [extensionName]: someExtension
+    composer_vendor_name [vendorname]: jonasgroeger
+    composer_package_name [some-extension]: 
+    version [0.1.0]: 
+    author_name [Your Name]: Jonas Gröger
+    url [https://github.com/...]: https://github.com/JonasGroeger/SomeExtension
+    i18n_prefix [someextension]:  
+    license [GPL v2]: 
+    Select extension_type:
+    1 - api
+    2 - antispam
+    3 - datavalues
+    4 - media
+    5 - parserhook
+    6 - semantic
+    7 - skin
+    8 - specialpage
+    9 - variable
+    10 - other
+    Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 [1]: 5
+    integration_add_example_special_page [y]: y
 
 Enter the project and take a look around::
 
-    $ cd ExampleMan/
+    $ cd SomeExtension/
     $ ls
 
 Create a GitHub repo and push it there::
 
     $ git init
     $ git add .
-    $ git commit -m "Initial commit: MediaWiki extension ExampleMan"
-    $ git remote add origin git@github.com:JonasGroeger/ExampleMan.git
+    $ git commit -m "Initial commit: MediaWiki extension SomeExtension"
+    $ git remote add origin git@github.com:JonasGroeger/SomeExtension.git
     $ git push -u origin master
 
 Now take a look at your repo. Don't forget to carefully look at the generated README.md. Awesome, right?
-
-For development, see the following for local development:
-
 
 ## Support This Project
 This project is maintained by volunteers. Support their work by contributing or spreading the word.
