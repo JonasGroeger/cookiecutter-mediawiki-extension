@@ -16,6 +16,7 @@ A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki
     * [Parser Functions](https://www.mediawiki.org/wiki/Manual:Parser_functions) (parserhook)
     * [Special Pages](https://www.mediawiki.org/wiki/Manual:Special_pages) (specialpage)
     * [Tag Extensions](https://www.mediawiki.org/wiki/Manual:Tag_extensions) (not sure?! please help)
+    * … and more!
 * Integration with [Gerrit](https://www.mediawiki.org/wiki/Gerrit) (using git-review)
 
 ## Constraints
