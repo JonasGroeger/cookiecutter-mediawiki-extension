@@ -9,7 +9,7 @@
 	"license-name": "{{ cookiecutter.license }}",
 	"type": "{{ cookiecutter.extension_type }}",
 	"AutoloadClasses": {
-		"{{ cookiecutter.repo_name }}Hooks": "{{ cookiecutter.repo_name }}.hooks.php"{% if cookiecutter.integration_add_example_special_page %},
+		"{{ cookiecutter.repo_name }}Hooks": "{{ cookiecutter.repo_name }}.hooks.php"{% if cookiecutter.integration_add_example_special_page == 'y' %},
 		"SpecialHelloWorld": "specials/SpecialHelloWorld.php"{% endif %}
 	},
 	"config": {
@@ -45,7 +45,7 @@
 		"localBasePath": "",
 		"remoteExtPath": "{{ cookiecutter.repo_name }}"
 	},
-	"SpecialPages": {{% if cookiecutter.integration_add_example_special_page %}
+	"SpecialPages": {{% if cookiecutter.integration_add_example_special_page == 'y' %}
 "HelloWorld": "SpecialHelloWorld"{% endif %}
 	},
 	"manifest_version": 1

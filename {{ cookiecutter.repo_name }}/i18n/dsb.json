@@ -5,6 +5,6 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "To jo pśikładowe rozšyrjenje",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Witaj k localizaciskej dataji rozšyrjenja {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Witaj k localizaciskej dataji rozšyrjenja {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"helloworld": "HelloWorld"{% endif %}
 }

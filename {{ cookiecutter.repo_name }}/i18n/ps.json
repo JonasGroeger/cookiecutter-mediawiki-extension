@@ -3,7 +3,7 @@
 		"authors": [
 			"Ahmed-Najib-Biabani-Ibrahimkhel"
 		]
-	}{% if cookiecutter.integration_add_example_special_page %},
+	}{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "سلامونه نړۍ!",
 	"helloworld": "سلامونه نړۍ"{% endif %}
 }

@@ -5,6 +5,6 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Isto es un extension de exemplo",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Benvenite al file de localisation del extension \"{{ cookiecutter.repo_name }}\" (modello)."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Benvenite al file de localisation del extension \"{{ cookiecutter.repo_name }}\" (modello)."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"helloworld": "HalloMundo"{% endif %}
 }

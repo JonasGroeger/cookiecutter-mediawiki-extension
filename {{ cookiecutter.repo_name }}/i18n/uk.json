@@ -6,7 +6,7 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Це приклад розширення",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Ласкаво просимо до файлу локалізації  розширення {{ cookiecutter.repo_name }} extension."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Ласкаво просимо до файлу локалізації  розширення {{ cookiecutter.repo_name }} extension."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Hello world!",
 	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Ласкаво просимо на спеціальну сторінку «Hello world» розширення {{ cookiecutter.repo_name }}.",
 	"helloworld": "Hello world"{% endif %}

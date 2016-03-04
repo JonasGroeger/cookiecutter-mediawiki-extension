@@ -5,6 +5,6 @@
 			"Fulup"
 		]
 	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Setu amañ ur skouer astenn"{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-desc": "Setu amañ ur skouer astenn"{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"helloworld": "HelloWorld"{% endif %}
 }

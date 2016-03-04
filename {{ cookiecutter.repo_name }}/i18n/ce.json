@@ -4,6 +4,6 @@
 			"Умар"
 		]
 	},
-	"{{ cookiecutter.i18n_prefix }}-helloworld": "Маршалла дуьне!"{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-helloworld": "Маршалла дуьне!"{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"helloworld": "Маршалла дуьне"{% endif %}
 }

@@ -5,7 +5,7 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Queste jè 'n'estenzione de esembie",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Bovègne jndr'à 'u file de localizzazzione de l'estenzione {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Bovègne jndr'à 'u file de localizzazzione de l'estenzione {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Cià munne!",
 	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Bovègne jndr'à pàgena speciale \"Cià munne\" pe l'estenzione {{ cookiecutter.repo_name }}.",
 	"helloworld": "Cià munne"{% endif %}

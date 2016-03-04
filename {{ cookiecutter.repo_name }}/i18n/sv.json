@@ -7,7 +7,7 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Detta är ett exempel-tillägg",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Välkommen till {{ cookiecutter.i18n_prefix }}-tilläggets lokaliseringsfil."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Välkommen till {{ cookiecutter.i18n_prefix }}-tilläggets lokaliseringsfil."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Hello world!",
 	"helloworld": "Hej världen"{% endif %}
 }

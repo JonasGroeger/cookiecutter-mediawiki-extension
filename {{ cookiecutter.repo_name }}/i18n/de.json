@@ -6,7 +6,7 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Veranschaulicht beispielhaft eine einfache MediaWiki-Erweiterung",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Willkommen bei der Lokalisierungs- und Internationalisierungsdatei der Programmerweiterung {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Willkommen bei der Lokalisierungs- und Internationalisierungsdatei der Programmerweiterung {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Hallo Welt!",
 	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Willkommen auf der Spezialseite „Hallo Welt“ der Erweiterung „{{ cookiecutter.repo_name }}“.",
 	"helloworld": "Hallo Welt"{% endif %}

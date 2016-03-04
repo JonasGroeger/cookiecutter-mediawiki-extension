@@ -9,7 +9,7 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "{{ {{ }}desc|name={{ cookiecutter.repo_name }}|url={{ cookiecutter.url }} {{ }} }}",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Used to greet the user when reading the i18n/??.json file."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Used to greet the user when reading the i18n/??.json file."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Page title of the HelloWorld special page.\n{{ {{ }} Identical|Hello World{{ }} }}",
 	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Text displayed on the HelloWorld SpecialPage.",
 	"helloworld": "Text of the link to the HelloWorld special page on SpecialPages.\n{{ {{ }}Identical|Hello World{{ }} }}"{% endif %}

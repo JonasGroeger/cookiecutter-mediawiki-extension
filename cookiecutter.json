@@ -9,5 +9,6 @@
   "url" : "The url to the project.",
   "i18n_prefix" : "{{ cookiecutter.repo_name|lower }}",
   "license" : "GPL v2",
-  "extension_type" : ["api", "antispam", "datavalues", "media", "parserhook", "semantic", "skin", "specialpage", "variable", "other"]
+  "extension_type" : ["api", "antispam", "datavalues", "media", "parserhook", "semantic", "skin", "specialpage", "variable", "other"],
+  "integration_add_example_special_page": "y"
 }

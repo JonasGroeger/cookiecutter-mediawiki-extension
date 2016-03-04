@@ -6,6 +6,6 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Dit is een voorbeeld van de uitbreiding",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Welkom bij het lokalisatiebestand van de {{ cookiecutter.i18n_prefix }}-uitbreiding."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Welkom bij het lokalisatiebestand van de {{ cookiecutter.i18n_prefix }}-uitbreiding."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"helloworld": "HelloWorld"{% endif %}
 }

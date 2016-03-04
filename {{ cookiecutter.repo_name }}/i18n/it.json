@@ -6,7 +6,7 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Questa è un'estensione di esempio",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Benvenuti al file di localizzazione dell'estensione {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Benvenuti al file di localizzazione dell'estensione {{ cookiecutter.repo_name }}."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Salve mondo!",
 	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Benvenuto alla pagina speciale \"Salve mondo\" dell'estensione {{ cookiecutter.repo_name }}.",
 	"helloworld": "Salve mondo"{% endif %}
