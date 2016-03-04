@@ -1,4 +1,4 @@
-{% if cookiecutter.integration_add_gerrit == 'y' %}
+{% if cookiecutter.integration_add_gerrit == 'y' -%}
 [gerrit]
 host=gerrit.wikimedia.org
 port=29418

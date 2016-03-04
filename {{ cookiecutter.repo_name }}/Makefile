@@ -20,9 +20,13 @@ test: _npm _composer ## Runs tests (see composer.json / Gruntfile.js)
 	@npm test
 	@composer test
 
+fix: _phpcbf
+	@vendor/bin/phpcbf
+
 ################################################################################
 _COMPOSER := $(shell composer -V)
 _NPM := $(shell npm -v)
+_PHPCBF := $(shell vendor/bin/phpcbf --version)
 
 _npm:
 ifndef _COMPOSER
@@ -32,6 +36,11 @@ endif
 _composer:
 ifndef _NPM
 	@printf "You can get composer @ https://getcomposer.org/\n"
+endif
+
+_phpcbf:
+ifndef _PHPCBF
+	@printf "Please run composer install first\n"
 endif
 
 .PHONY: help
