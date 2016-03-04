@@ -1,8 +1,8 @@
-License: mediawiki-extensions-BoilerPlate
+License: cookiecutter-mediawiki-extension
 =========================================
 
-    The BoilerPlate extension is a blank MediaWiki extension template.
-    Copyright @ https://www.mediawiki.org/wiki/Extension:BoilerPlate
+    A cookiecutter template for MediaWiki extensions.
+    Copyright © 2016  Jonas Gröger
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -18,11 +18,11 @@ License: mediawiki-extensions-BoilerPlate
     with this program; if not, write to the Free Software Foundation, Inc.,
     51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-License: cookiecutter-mediawiki-extension
+License: mediawiki-extensions-BoilerPlate
 =========================================
 
-    A cookiecutter template for MediaWiki extensions.
-    Copyright © 2016  Jonas Gröger
+    The BoilerPlate extension is a blank MediaWiki extension template.
+    Copyright @ https://www.mediawiki.org/wiki/Extension:BoilerPlate
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
