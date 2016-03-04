@@ -2,7 +2,8 @@
 A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki extensions.
 
 ## Features
-* Comes with all features of the [upstream BoilerPlate](https://www.mediawiki.org/wiki/Extension:BoilerPlate) extension.
+* Comes with all features of the [upstream BoilerPlate](https://www.mediawiki.org/wiki/Extension:BoilerPlate)
+  extension.
 * Makefile support (`make help`, `make install`, `make update`, `make test`)
 
 ## Features (future)
@@ -20,13 +21,15 @@ A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki
 * Integration with [Gerrit](https://www.mediawiki.org/wiki/Gerrit) (using git-review)
 
 ## Constraints
-* Cannot create MediaWiki skins. See [](https://github.com/JonasGroeger/cookiecutter-mediawiki-skin/) for that.
-
+* Cannot create MediaWiki skins. See [cookiecutter-mediawiki-skin](https://github.com/JonasGroeger/cookiecutter-mediawiki-skin/)
+for that. (In theory, you can select the skin option, but it doesent do anything special for skins right now.
+A separate repository is better imho.)
 
 ## Usage
 Let's pretend you want to create a MediaWiki extension called "ExampleMan". Rather than cloning the
-[BoilerPlate extension](https://www.mediawiki.org/wiki/Extension:BoilerPlate), and then changing every occurrence of
-`BoilerPlate` by hand, use [cookiecutter](https://github.com/audreyr/cookiecutter) to do all the work.
+[BoilerPlate extension](https://www.mediawiki.org/wiki/Extension:BoilerPlate), and then changing
+every occurrence of `BoilerPlate` by hand, use [cookiecutter](https://github.com/audreyr/cookiecutter)
+to do all the work.
 
 First, get cookiecutter. Trust me, it's awesome::
 
@@ -95,12 +98,13 @@ This project is maintained by volunteers. Support their work by contributing or 
 
 
 ## "Your Stuff"
-Scattered throughout this project there are places marked with "Your Stuff". This is where third-party libraries are to
-be integrated with your project.
+Scattered throughout this project there are places marked with "Your Stuff". This is where third-party
+libraries are to be integrated with your project.
 
 
 ## Releases
-Want a stable release? You can find them at https://github.com/JonasGroeger/cookiecutter-mediawiki-extension/releases
+Want a stable release? You can find them at
+[this projects releases page](https://github.com/JonasGroeger/cookiecutter-mediawiki-extension/releases).
 
 
 ## Not Exactly What You Want?
