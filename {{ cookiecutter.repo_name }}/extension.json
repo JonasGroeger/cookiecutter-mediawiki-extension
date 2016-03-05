@@ -19,9 +19,10 @@
 		"{{ cookiecutter.repo_name }}Alias": "{{ cookiecutter.repo_name }}.i18n.alias.php"
 	},
 	"Hooks": {
-		"NameOfHook": [
-			"{{ cookiecutter.repo_name }}Hooks::onNameOfHook"
-		]
+		{% if cookiecutter.integration_add_example_parser_hook == 'y' %}
+		"ParserFirstCallInit": [
+			"{{ cookiecutter.repo_name }}Hooks::onParserFirstCallInit"
+		]{% endif %}
 	},
 	"MessagesDirs": {
 		"{{ cookiecutter.repo_name }}": [

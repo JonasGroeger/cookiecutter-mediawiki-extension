@@ -14,11 +14,13 @@ MediaWiki extensions.
 ## Optional Integrations
 *These features can be enabled during initial project setup.*
 
-* Different extension types
+* Set the extension type
     * [Parser Functions](https://www.mediawiki.org/wiki/Manual:Parser_functions) (parserhook)
     * [Special Pages](https://www.mediawiki.org/wiki/Manual:Special_pages) (specialpage)
     * [Tag Extensions](https://www.mediawiki.org/wiki/Manual:Tag_extensions) (not sure?! please help)
     * … and more!
+* Add an example special page `[[Special:HelloWorld]]`
+* Add an example parser hook `{{ "{{" }}#something: {{ "}}" }}`
 * Integration with [Gerrit](https://www.mediawiki.org/wiki/Gerrit) (using git-review)
 
 ## Constraints
@@ -79,7 +81,9 @@ It prompts you for questions. Answer them:
     9 - variable
     10 - other
     Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 [1]: 5
+    integration_add_example_parser_hook [y]: y
     integration_add_example_special_page [y]: y
+    integration_add_gerrit [y]: y
 
 Enter the project and take a look around:
 
