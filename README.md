@@ -31,11 +31,11 @@ Let's pretend you want to create a MediaWiki extension called "SomeExtension". R
 every occurrence of `BoilerPlate` by hand, use [cookiecutter](https://github.com/audreyr/cookiecutter)
 to do all the work.
 
-First, get cookiecutter. Trust me, it's awesome::
+First, get cookiecutter. Trust me, it's awesome:
 
     $ pip install cookiecutter
 
-Now run it against this repo::
+Now run it against this repo:
 
     $ cookiecutter https://github.com/JonasGroeger/cookiecutter-mediawiki-extension.git
 
@@ -44,7 +44,7 @@ You'll be prompted for some questions, answer them, then it will create a custom
 **Note**: To conform with all naming conventions (PHP, JS/CSS, Composer) you should watch closely
 when filling out the project template parameters and see how its done there.
 
-It prompts you for questions. Answer them::
+It prompts you for questions. Answer them:
 
     $ cookiecutter https://github.com/JonasGroeger/cookiecutter-mediawiki-extension.git
     Cloning into 'cookiecutter-mediawiki-extension'...
@@ -78,12 +78,12 @@ It prompts you for questions. Answer them::
     Choose from 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 [1]: 5
     integration_add_example_special_page [y]: y
 
-Enter the project and take a look around::
+Enter the project and take a look around:
 
     $ cd SomeExtension/
     $ ls
 
-Create a GitHub repo and push it there::
+Create a GitHub repo and push it there:
 
     $ git init
     $ git add .
