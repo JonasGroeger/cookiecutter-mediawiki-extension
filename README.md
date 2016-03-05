@@ -26,7 +26,7 @@ for that. (In theory, you can select the skin option, but it doesent do anything
 A separate repository is better imho.)
 
 ## Usage
-Let's pretend you want to create a MediaWiki extension called "ExampleMan". Rather than cloning the
+Let's pretend you want to create a MediaWiki extension called "SomeExtension". Rather than cloning the
 [BoilerPlate extension](https://www.mediawiki.org/wiki/Extension:BoilerPlate), and then changing
 every occurrence of `BoilerPlate` by hand, use [cookiecutter](https://github.com/audreyr/cookiecutter)
 to do all the work.
