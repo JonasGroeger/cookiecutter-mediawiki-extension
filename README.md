@@ -1,5 +1,6 @@
 # cookiecutter-mediawiki-extension
-A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki extensions.
+A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for
+MediaWiki extensions.
 
 ## Features
 * Comes with all features of the [upstream BoilerPlate](https://www.mediawiki.org/wiki/Extension:BoilerPlate)
@@ -22,13 +23,13 @@ A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for MediaWiki
 
 ## Constraints
 * Cannot create MediaWiki skins. See [cookiecutter-mediawiki-skin](https://github.com/JonasGroeger/cookiecutter-mediawiki-skin/)
-for that. (In theory, you can select the skin option, but it doesent do anything special for skins right now.
-A separate repository is better imho.)
+for that. (In theory, you can select the skin option, but it doesent do
+anything special for skins right now. A separate repository is better imho.)
 
 ## Usage
-Let's pretend you want to create a MediaWiki extension called "SomeExtension". Rather than cloning the
-[BoilerPlate extension](https://www.mediawiki.org/wiki/Extension:BoilerPlate), and then changing
-every occurrence of `BoilerPlate` by hand, use [cookiecutter](https://github.com/audreyr/cookiecutter)
+Let's pretend you want to create a MediaWiki extension called "SomeExtension".
+Rather than cloning the [BoilerPlate extension](https://www.mediawiki.org/wiki/Extension:BoilerPlate),
+and then changing every occurrence of `BoilerPlate` by hand, use [cookiecutter](https://github.com/audreyr/cookiecutter)
 to do all the work.
 
 First, get cookiecutter. Trust me, it's awesome:
@@ -39,10 +40,12 @@ Now run it against this repo:
 
     $ cookiecutter https://github.com/JonasGroeger/cookiecutter-mediawiki-extension.git
 
-You'll be prompted for some questions, answer them, then it will create a custom MediaWiki extension for you.
+You'll be prompted for some questions, answer them, then it will create a
+custom MediaWiki extension for you.
 
-**Note**: To conform with all naming conventions (PHP, JS/CSS, Composer) you should watch closely
-when filling out the project template parameters and see how its done there.
+**Note**: If you want to conform with all naming conventions (PHP, JS/CSS,
+Composer) you should watch closely when filling out the project template
+parameters. The default values are conforming with all conventions.
 
 It prompts you for questions. Answer them:
 
@@ -91,15 +94,12 @@ Create a GitHub repo and push it there:
     $ git remote add origin git@github.com:JonasGroeger/SomeExtension.git
     $ git push -u origin master
 
-Now take a look at your repo. Don't forget to carefully look at the generated README.md. Awesome, right?
+Now take a look at your repo. Don't forget to carefully look at the generated
+README.md. Awesome, right?
 
 ## Support This Project
-This project is maintained by volunteers. Support their work by contributing or spreading the word.
-
-
-## "Your Stuff"
-Scattered throughout this project there are places marked with "Your Stuff". This is where third-party
-libraries are to be integrated with your project.
+This project is maintained by volunteers. Support their work by contributing or
+spreading the word.
 
 
 ## Releases
@@ -108,17 +108,21 @@ Want a stable release? You can find them at
 
 
 ## Not Exactly What You Want?
-This is what I want. *It might not be what you want.* Don't worry, you have options:
+This is what I want. *It might not be what you want.* Don't worry, you have
+options:
 
 ### Fork This
-If you have differences in your preferred setup, I encourage you to fork this to create your own version.
-Once you have your fork working, let me know and I'll add it to a '*Similar Cookiecutter Templates*' list here.
-It's up to you whether or not to rename your fork.
+If you have differences in your preferred setup, I encourage you to fork this
+to create your own version. Once you have your fork working, let me know and
+I'll add it to a '*Similar Cookiecutter Templates*' list here. It's up to you
+whether or not to rename your fork.
 
-If you do rename your fork, I encourage you to submit it to the following places:
+If you do rename your fork, I encourage you to submit it to the following
+places:
 
-* [cookiecutter](https://github.com/audreyr/cookiecutter) so it gets listed in the README as a template.
+* [cookiecutter](https://github.com/audreyr/cookiecutter) so it gets listed in
+  the README as a template.
 
 ### Or Submit a Pull Request
-I also accept pull requests on this, if they're small, atomic, and if they make my own project development
-experience better.
+I also accept pull requests on this, if they're small, atomic, and if they make
+my own project development experience better.
