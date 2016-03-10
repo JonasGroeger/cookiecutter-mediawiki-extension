@@ -4,7 +4,7 @@
 
 ## Features
 
-{% if cookiecutter.integration_add_example_special_page == 'y' %} * [Sample page](https://www.mediawiki.org/wiki/Manual:Special_pages) (specials/SpecialHelloWorld.php){% endif %}
+{% if cookiecutter.integration_add_example_special_page == 'y' %} * [Special page](https://www.mediawiki.org/wiki/Manual:Special_pages) (specials/SpecialHelloWorld.php){% endif %}
 {% if cookiecutter.integration_add_gerrit == 'y' %} * [Gerrit integration](https://www.mediawiki.org/wiki/Gerrit) (.gitreview){% endif %}
 
 ## Development on Linux (OS X anyone?)
