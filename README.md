@@ -20,7 +20,7 @@ MediaWiki extensions.
     * [Tag Extensions](https://www.mediawiki.org/wiki/Manual:Tag_extensions) (not sure?! please help)
     * … and more!
 * Add an example special page `[[Special:HelloWorld]]`
-* Add an example parser hook `{{ "{{" }}#something: {{ "}}" }}`
+* Add an example parser hook `{{#something: }}`
 * Integration with [Gerrit](https://www.mediawiki.org/wiki/Gerrit) (using git-review)
 
 ## Constraints
