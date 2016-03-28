@@ -6,8 +6,8 @@
 		]
 	},
 	"{{ cookiecutter.i18n_prefix }}-desc": "Был ҡушымта өлгөһө",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "BoilerPlate киңәйтеүе локализация файлына рөхсәт итегеҙ."{% if cookiecutter.integration_add_example_special_page == 'y' %},
+	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "{{ cookiecutter.repo_name }} киңәйтеүе локализация файлына рөхсәт итегеҙ."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Һаумы, донъя!",
-	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "BoilerPlate ҡушымтаһының «Һаумы, донъя!» махсус битенә рәхим итегеҙ!",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "{{ cookiecutter.repo_name }} ҡушымтаһының «Һаумы, донъя!» махсус битенә рәхим итегеҙ!",
 	"helloworld": "Һаумы, донъя!"{% endif %}
 }
