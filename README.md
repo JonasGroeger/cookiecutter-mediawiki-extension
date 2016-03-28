@@ -1,4 +1,7 @@
 # cookiecutter-mediawiki-extension
+
+[![Up-To-Date with Upstream](https://img.shields.io/badge/Up--To--Date (upstream)-%E2%9C%93-brightgreen.svg?style=flat-square)](https://github.com/wikimedia/mediawiki-extensions-BoilerPlate)
+
 A [Cookiecutter](https://github.com/audreyr/cookiecutter) template for
 MediaWiki extensions.
 
