@@ -108,12 +108,6 @@ README.md. Awesome, right?
 This project is maintained by volunteers. Support their work by contributing or
 spreading the word.
 
-
-## Releases
-Want a stable release? You can find them at
-[this projects releases page](https://github.com/JonasGroeger/cookiecutter-mediawiki-extension/releases).
-
-
 ## Not Exactly What You Want?
 This is what I want. *It might not be what you want.* Don't worry, you have
 options:
