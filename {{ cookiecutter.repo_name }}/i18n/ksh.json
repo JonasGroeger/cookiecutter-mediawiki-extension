@@ -7,6 +7,6 @@
 	"{{ cookiecutter.i18n_prefix }}-desc": "Dat heh es e eijfach Beischpell för e Zohsazprojramm.",
 	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Wellkumme bei de Övversäzonge för dat Beischpell för e Zohsazprojramm heh."{% if cookiecutter.integration_add_example_special_page == 'y' %},
 	"{{ cookiecutter.i18n_prefix }}-helloworld": "Hey Wält!",
-	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Wellkumme op dä {{intspecialpage}} met „Hey Wält!“ vum Zohsazprojramm „<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„E janz jewöhnlesch Beijschpell“\">{{ cookiecutter.repo_name }}</i>“.",
+	"{{ cookiecutter.i18n_prefix }}-helloworld-intro": "Wellkumme op dä \{\{intspecialpage\}\} met „Hey Wält!“ vum Zohsazprojramm „<i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„E janz jewöhnlesch Beijschpell“\">{{ cookiecutter.repo_name }}</i>“.",
 	"helloworld": "HalloWält"{% endif %}
 }
