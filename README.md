@@ -7,7 +7,7 @@ MediaWiki extensions.
 
 ## Features
 * Comes with all features of the [upstream BoilerPlate](https://www.mediawiki.org/wiki/Extension:BoilerPlate)
-  extension (but only english i18n, see i18n/README.md).
+  extension (only english i18n, see `i18n/README.md`).
 * Makefile support (`make help`, `make install`, `make update`, `make test`)
 
 ## Features (future)
