@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Farras"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Ini adalah contoh ekstensi",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Selamat datang di berkas lokalisasi ekstensi {{ cookiecutter.repo_name }}."
-}

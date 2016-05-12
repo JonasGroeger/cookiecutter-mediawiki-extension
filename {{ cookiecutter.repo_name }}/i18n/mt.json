@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Chrisportelli"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Din hija eżempju ta' estensjoni",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Merħba fil-fajl ta' lokalizzazzjoni tal-estensjoni {{ cookiecutter.repo_name }}."
-}

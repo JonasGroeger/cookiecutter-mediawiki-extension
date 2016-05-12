@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Oesjaar"
-		]
-	}{% if cookiecutter.integration_add_example_special_page == 'y' %},
-	"helloworld": "Hello wêreld"{% endif %}
-}

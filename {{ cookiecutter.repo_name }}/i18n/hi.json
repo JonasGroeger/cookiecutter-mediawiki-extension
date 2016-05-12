@@ -1,6 +1,0 @@
-{
-	"@metadata": {
-		"authors": []
-	}{% if cookiecutter.integration_add_example_special_page == 'y' %},
-	"helloworld": "नमस्कारदुनिया"{% endif %}
-}

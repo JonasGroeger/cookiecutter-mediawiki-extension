@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Dj"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Ez egy példa kiterjesztés",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Üdvözlünk a {{ cookiecutter.repo_name }} kiterjesztés lokalizációs fájljában."
-}

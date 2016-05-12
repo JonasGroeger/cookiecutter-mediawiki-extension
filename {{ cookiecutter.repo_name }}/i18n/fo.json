@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"EileenSanda"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Hetta er eitt dømi um eitt ískoyti",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Vælkomin á staðsetingarfíluna til {{ cookiecutter.repo_name }} ískoytið."
-}

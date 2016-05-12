@@ -1,5 +1,0 @@
-{
-	"@metadata": [],
-	"{{ cookiecutter.i18n_prefix }}-desc": "Dette er en eksempelutvidelse",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Velkommen til lokaliseringsfilen for utvidelsen {{ cookiecutter.repo_name }}"
-}

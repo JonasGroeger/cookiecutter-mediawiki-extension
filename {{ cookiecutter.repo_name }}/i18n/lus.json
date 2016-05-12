@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"RMizo"
-		]
-	}{% if cookiecutter.integration_add_example_special_page == 'y' %},
-	"helloworld": "HelloWorld"{% endif %}
-}

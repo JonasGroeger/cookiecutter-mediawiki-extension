@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Anakmalaysia"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Ini ialah sambungan contoh",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Selamat datang ke fail penyetempatan sambungan {{ cookiecutter.repo_name }}."
-}

@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Geopoet"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Ini sarong ehemplo nin ekstensyon",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "Marhayon na pag-abot sa sagunson nin lokalisasyon kan ekstensyon nin GagaangPlato."
-}

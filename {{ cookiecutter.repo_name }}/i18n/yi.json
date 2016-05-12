@@ -1,9 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"פוילישער"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "דאס איז א ביישפיל פארברייטערונג",
-	"{{ cookiecutter.i18n_prefix }}-i18n-welcome": "ברוך הבא צו דער לאקאליזירונג־טעקע פון דער {{ cookiecutter.repo_name }} פארברייטערונג."
-}

@@ -1,8 +1,0 @@
-{
-	"@metadata": {
-		"authors": [
-			"Arnaugir"
-		]
-	},
-	"{{ cookiecutter.i18n_prefix }}-desc": "Aquesta és una extensió d'exemple"
-}
